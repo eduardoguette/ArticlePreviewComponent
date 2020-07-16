@@ -34,13 +34,13 @@ export default function Banner() {
           SHARE
         </div>
         <div className="social">
-          <a href="facebook.com">
+          <a target="_blanck" href="https://www.facebook.com/sharer/sharer.php?u=https://article-component-card.vercel.app/" >
             <img src={facebook} alt="facebook" />
           </a>
-          <a href="twitter.com">
+          <a target="_blanck" href="https://twitter.com/intent/tweet?url=https://article-component-card.vercel.app/">
             <img src={twitter} alt="twitter" />
           </a>
-          <a href="pinterest.com">
+          <a target="_blanck" href="https://www.pinterest.com/pin/create/button/?url=https://article-component-card.vercel.app/">
             <img src={pinterest} alt="pinterest" />
           </a>
         </div>

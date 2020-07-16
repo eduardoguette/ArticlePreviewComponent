@@ -7,7 +7,7 @@ import logoGit from "../github-brands.svg"
 export default function Footer() {
   return (
     <div className="footer">
-      <p>Hecho por Eduardo Guette </p>
+      {/* <p>Hecho por Eduardo Guette </p> */}
       <div className="socialLogos">
         <a target="_blanck" href="https://twitter.com/eduardoguette" className="social" >
           <img src={logoTwitter} alt="twitter" />
