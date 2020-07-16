@@ -14,8 +14,8 @@ function App() {
         <TextInfo />
         <Banner />
       </div>
-      <Footer />
       <FrontendMentorFoo />
+      <Footer />
     </Fragment>
   );
 }
