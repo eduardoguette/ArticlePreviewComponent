@@ -1,14 +1,17 @@
 div.Banner {
-  display: flex;
+  
   justify-content: space-between;
   align-items: center;
-  margin-top: -1.4em;
+  margin-top: -1.6em;
   height: 5em;
   background-color: white;
   display: flex;
-  padding-bottom: .2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  bottom: 0%;
+  padding: .2em;
 }
-
 .Banner > img {
   height: 3em;
   margin-left: 10%;
@@ -46,17 +49,22 @@ div.Banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -1.4em;
+  margin-top: -1.6em;
   height: 5em;
   background-color: var(--VeryDarkGrayishBlue);
   display: none;
-  padding-bottom: .2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  bottom: 0%;
+  padding: .2em;
+  
 }
 .Banner-Active > .text {
 
   margin-left: 10%;
   color: var(--GrayishBlue);
-  font-size: 1em;
+  font-size: .95em;
   font-weight: 400;
   letter-spacing: .4em;
 }
