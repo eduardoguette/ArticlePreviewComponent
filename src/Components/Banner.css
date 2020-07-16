@@ -1,0 +1,91 @@
+div.Banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1.4em;
+  height: 5em;
+  background-color: white;
+  display: flex;
+  padding-bottom: .2em;
+}
+
+.Banner > img {
+  height: 3em;
+  margin-left: 10%;
+  border-radius: 100%;
+}
+
+.Banner > .info{
+  display: grid;
+  grid-column: 1;
+  margin-left: -3.8em;
+}
+.Banner span.name{
+  color: var(--VeryDarkGrayishBlue);
+  font-weight:900;
+}
+.Banner span.date{
+  color: var(--GrayishBlue);
+  font-weight:500;
+}
+.Banner .share-img{
+  height: 2.5em;
+  width: 2.5em;
+  background: url(../icon-share-blue.svg) top 46% center no-repeat;
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 100%;
+  background-size: 1.2em;
+  margin-right: 10%;
+}
+
+
+/*************** B L U E ***************/
+
+
+.Banner-Active{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1.4em;
+  height: 5em;
+  background-color: var(--VeryDarkGrayishBlue);
+  display: none;
+  padding-bottom: .2em;
+}
+.Banner-Active > .text {
+
+  margin-left: 10%;
+  color: var(--GrayishBlue);
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: .4em;
+}
+.Banner-Active .share-img{
+  height: 2.5em;
+  width: 2.5em;
+  background: url(../icon-share.svg) top 46% center no-repeat;
+  background-color: var(--DesaturatedDarkBlue);
+  border-radius: 100%;
+  background-size: 1.2em;
+  margin-right: 10%;
+}
+.Banner-Active div.social {
+  margin-left: -3.5em;
+  padding-top: .3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Banner-Active a {
+  padding: 0 .2em;
+}
+.Banner-Active img {
+  height: auto;
+  width: auto;
+}
+
+
+
+.share-img:hover{
+  cursor: pointer;
+}

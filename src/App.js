@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
 import './App.css';
+import Footer from "./Components/Footer"
+import FrontendMentorFoo from "../src/Components/FrontendMentor"
+import Background from './Components/Background';
+import TextInfo from './Components/TextInfo';
+import Banner from './Components/Banner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div className="card-component">
+        <Background />
+        <TextInfo />
+        <Banner />
+      </div>
+      <Footer />
+      <FrontendMentorFoo />
+    </Fragment>
   );
 }
 

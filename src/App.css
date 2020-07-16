@@ -1,38 +1,45 @@
-.App {
+/* @import url("./no-foo.css"); */
+:root {
+  --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+  --GrayishBlue: hsl(212, 23%, 69%);
+  --Light-Grayish-Blue: hsl(210, 46%, 95%);
+  --ShadowColor: #dddddd;
+  --White: #ffffff;
+  font-size: 13px;
+}
+body {
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--Light-Grayish-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-component {
+  box-shadow: 10px 10px 10px var(--ShadowColor);
+  height: 510px;
+  width: 325px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: var(--White);
+}
+.image {
+  height: 200px;
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text_container {
+  margin: 13% 10% 11.8%;
+  color: var(--VeryDarkGrayishBlue);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text_container h1 {
+  font-size: 1.2em;
+  padding-bottom: .3em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text_container p {
+  font-size: 1.01em;
+  color: var(--DesaturatedDarkBlue);
+  line-height: 1.6em;
+  
 }
