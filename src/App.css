@@ -35,11 +35,11 @@ body {
 }
 .text_container h1 {
   font-size: 1.2em;
-  padding-bottom: .05em;
+  padding-bottom: 0.05em;
 }
 .text_container p {
   font-size: 1.01em;
   color: var(--DesaturatedDarkBlue);
   line-height: 1.6em;
-  
 }
+

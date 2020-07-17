@@ -1,0 +1,55 @@
+@media screen and (min-width: 720px) {
+  .card-component {
+    width: 665px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 260px 405px;
+  }
+  div.image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid red; */
+    background: url("../drawers.jpg") top 0 left 50% no-repeat;
+    background-size: 120%;
+  }
+
+  .sec-2 {
+    width: 100%;
+  }
+  .text_container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    padding: 2.6em 3em 0;
+    /* border: 1px solid brown; */
+  }
+  .text_container h1{
+    font-size: 1.4em;
+     padding: 0;
+     margin: 0;
+     
+  }
+  .text_container p{
+    font-size: .9em;
+    margin-top: .5em;
+    /* border: 1px solid red; */
+  }
+  div.Banner,
+  div.Banner img{
+    padding: 0;
+    margin: 0;
+    position: unset;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  div.Banner img{
+    margin-left: 3em;
+  }
+  .Banner .share-img{
+    margin-right: 10%;
+    width: 2em;
+    height: 2em;
+    background-size: .95em;
+  }
+}

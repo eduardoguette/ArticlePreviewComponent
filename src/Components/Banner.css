@@ -1,5 +1,4 @@
 div.Banner {
-  
   justify-content: space-between;
   align-items: center;
   margin-top: -1.6em;
@@ -11,11 +10,14 @@ div.Banner {
   position: relative;
   bottom: 0%;
   padding: .2em;
+  
+  transition: .2s;
 }
 .Banner > img {
   height: 3em;
   margin-left: 10%;
   border-radius: 100%;
+  margin-top: -.1em;
 }
 
 .Banner > .info{
@@ -52,12 +54,12 @@ div.Banner {
   margin-top: -1.6em;
   height: 5em;
   background-color: var(--VeryDarkGrayishBlue);
-  display: none;
   margin-bottom: 0;
   padding-bottom: 0;
   position: relative;
   bottom: 0%;
   padding: .2em;
+  transition: .8s;
   
 }
 .Banner-Active > .text {
@@ -97,3 +99,4 @@ div.Banner {
 .share-img:hover{
   cursor: pointer;
 }
+
