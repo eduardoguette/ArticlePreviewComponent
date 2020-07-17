@@ -70,7 +70,7 @@ div.Banner {
   font-weight: 400;
   letter-spacing: .4em;
 }
-.Banner-Active .share-img{
+.Banner-Active .share-img, .share-img.active{
   height: 2.5em;
   width: 2.5em;
   background: url(../icon-share.svg) top 46% center no-repeat;

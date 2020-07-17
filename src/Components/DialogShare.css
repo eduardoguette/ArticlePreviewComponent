@@ -1,0 +1,35 @@
+@media screen and (min-width: 720px) {
+  .container-dialog {
+    height: 3.5em;
+    width:17em;
+    background-color: var(--VeryDarkGrayishBlue);
+    position: fixed;
+    z-index: 3;
+    margin-left: 18em;
+    margin-top: -4em;
+    border-radius: .6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 3s;
+  }
+  .container-dialog::before{
+    content: "";
+    width:1.8em;
+    height:1.8em;
+    background-color: var(--VeryDarkGrayishBlue);
+    display: block;
+    margin-top: 1.2em;
+    margin-left: .5em;
+    position: fixed;
+    z-index: -99999;
+    transform: rotate(45deg);
+  }
+  .container-dialog span{
+    color: var(--GrayishBlue);
+    letter-spacing: .3em;
+  }
+  div.container-dialog > img{
+    margin-left: 1em;
+  }
+}

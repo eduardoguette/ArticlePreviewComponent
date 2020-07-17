@@ -36,14 +36,14 @@
     /* border: 1px solid red; */
   }
   div.Banner,
-  div.Banner img{
+  div.Banner > img{
     padding: 0;
     margin: 0;
     position: unset;
     margin-left: 0;
     margin-right: 0;
   }
-  div.Banner img{
+  div.Banner > img{
     margin-left: 3em;
   }
   .Banner .share-img{
@@ -52,4 +52,5 @@
     height: 2em;
     background-size: .95em;
   }
+
 }
