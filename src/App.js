@@ -10,7 +10,7 @@ function App() {
     <Fragment>
       <CardComponent />
       <FrontendMentorFoo />
-      {/* <Footer /> */}
+      <Footer />
     </Fragment>
   );
 }
